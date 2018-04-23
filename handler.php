@@ -30,38 +30,13 @@ class handler {
 
         //Some common replacements: yes its a long list
         $searchReplace = [];
-        $searchReplace['Tutorübungen'] = 'TÜ';
-        $searchReplace['Grundlagen'] = 'G';
+        $searchReplace['zu'] = '';
+        $searchReplace['Tutorübungen'] = 'Tutorübung';
+        $searchReplace['Grundlagen' = '';
         $searchReplace['Datenbanken'] = 'DB';
-        $searchReplace['Zentralübungen'] = 'ZÜ';
-        $searchReplace['Zentralübung'] = 'ZÜ';
-        $searchReplace['Vertiefungsübungen'] = 'VÜ';
-        $searchReplace['Übungen'] = 'Ü';
-        $searchReplace['Übung'] = 'Ü';
-        $searchReplace['Exercises'] = 'EX';
-        $searchReplace['Planen und Entscheiden in betrieblichen Informationssystemen - Wirtschaftsinformatik 4'] = 'PLEBIS';
-        $searchReplace['Planen und Entscheiden in betrieblichen Informationssystemen'] = 'PLEBIS';
-        $searchReplace['Statistics for Business Administration (with Introduction to R)'] = 'Stats';
-        $searchReplace['Kostenrechnung für Wirtschaftsinformatik und Nebenfach'] = 'KR';
-        $searchReplace['Kostenrechnung'] = 'KR';
-        $searchReplace['Mathematische Behandlung der Natur- und Wirtschaftswissenschaften (Mathematik 1)'] = 'MBNW';
-        $searchReplace['Einführung in die Wirtschaftsinformatik'] = 'WINFO';
-        $searchReplace['Betriebssysteme und Systemsoftware'] = 'BS';
-        $searchReplace['Einführung in die Informatik '] = 'INFO';
-        $searchReplace['Praktikum: Grundlagen der Programmierung'] = 'PGP';
-        $searchReplace['Einführung in die Rechnerarchitektur'] = 'ERA';
-        $searchReplace['Einführung in die Softwaretechnik'] = 'EIST';
-        $searchReplace['Algorithmen und Datenstrukturen'] = 'AD';
-        $searchReplace['Rechnernetze und Verteilte Systeme'] = 'RNVS';
-        $searchReplace['Einführung in die Theoretische Informatik'] = 'THEO';
-        $searchReplace['Diskrete Strukturen'] = 'DS';
-        $searchReplace['Diskrete Wahrscheinlichkeitstheorie'] = 'DWT';
-        $searchReplace['Numerisches Programmieren'] = 'NumProg';
-        $searchReplace['Lineare Algebra für Informatik'] = 'LinAlg';
-        $searchReplace['Analysis für Informatik'] = 'Analysis';
-        $searchReplace[' der Künstlichen Intelligenz'] = 'KI';
-        $searchReplace['Advanced Topics of Software Engineering'] = 'ASE';
-        $searchReplace['Praktikum - iPraktikum, iOS Praktikum'] = 'iPraktikum';
+        $searchReplace['Zentralübungen'] = 'Zentralübung';
+        $searchReplace['Vertiefungsübungen'] = 'Vertiefungsübung';
+        $searchReplace['Übungen'] = 'Übung';
 
         //Do the replacement
         $summary = strtr($summary, $searchReplace);
