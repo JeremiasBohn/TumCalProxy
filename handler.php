@@ -32,7 +32,7 @@ class handler {
         $searchReplace = [];
         $searchReplace['zu'] = '';
         $searchReplace['Tutorübungen'] = 'Tutorübung';
-        $searchReplace['Grundlagen' = '';
+        $searchReplace['Grundlagen: '] = '';
         $searchReplace['Datenbanken'] = 'DB';
         $searchReplace['Zentralübungen'] = 'Zentralübung';
         $searchReplace['Vertiefungsübungen'] = 'Vertiefungsübung';
